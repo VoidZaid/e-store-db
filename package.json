@@ -1,15 +1,17 @@
 {
-  "name": "bankingapp-mock-api",
+  "name": "e-store-db",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Create a folder\r ```\r mkdir bankapp-mock-api\r cd bankapp-mock-api\r ```",
   "main": "server.js",
   "scripts": {
-    "start" : "node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.2"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.16.3"
   }
 }
